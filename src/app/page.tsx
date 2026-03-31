@@ -3,6 +3,7 @@ import About from "@/components/organisms/About";
 import Contact from "@/components/organisms/Contact";
 import HeroSecion from "@/components/organisms/HeroSecion";
 import Navbar from "@/components/organisms/Navbar";
+import LoginSection from "@/components/organisms/LoginSection";
 
 export default function page() {
   return (
@@ -12,6 +13,7 @@ export default function page() {
       <Contact/>
       <About/>
       <Card/>
+      <LoginSection/>
     </div>
   );
 }
